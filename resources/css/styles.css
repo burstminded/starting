@@ -6,8 +6,20 @@
 }
 
 html {
-    font-size: 1rem;
+    font-size: 10px;
     background-color: #ffa07a;
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    html {
+        font-size: 6px;
+    }
 }
 
 header {
@@ -87,6 +99,17 @@ header nav ul li a {
     width: 30%;
 }
 
+@media only screen and (max-width: 1048px) {
+    #meetup div {
+        flex-flow: column nowrap;
+    }
+    
+    #meetup div img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
 #quote {
     width: 100%;
     color: #ff0;
@@ -115,6 +138,17 @@ header nav ul li a {
 
 #gallery img {
     width: 30%;
+}
+
+@media only screen and (max-width: 1048px) {
+    #gallery {
+        flex-flow: column nowrap;
+    }
+
+    #gallery img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
 }
 
 #meeting {
