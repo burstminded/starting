@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+    background-color: #ffa07a;
+}
+
+header {
+    background-color: #008080;
+    width: 100%;
+    padding: 2rem;
+}
+
+header nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: auto 2rem;
+}
+
+header nav ul li a {
+    color: #ffa07a;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+#banner {
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#banner h1 {
+    background-color: rgb(1 1 0 / 50%);
+    padding: 2rem;
+    text-align: center;
+    font-size: 4.5rem;
+    color: #ff7f50;
+}
+
+#meetup {
+    padding: 2rem;
+    width: 100%;
+}
+
+#meetup h2 {
+    color: #ff0;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#meetup p {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#meetup p a {
+    color: #ff0;
+    text-decoration: underline;
+}
+
+#meetup div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem auto;
+}
+
+#meetup div img {
+    width: 30%;
+}
+
+#quote {
+    width: 100%;
+    color: #ff0;
+    background-color: #008080;
+    padding: 3rem 2rem; 
+    margin-bottom: 1rem;
+}
+
+#quote h2 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+#quote p {
+    font-size: 3rem;
+}
+
+#gallery {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+
+#gallery img {
+    width: 30%;
+}
+
+#meeting {
+    padding: 5rem;
+}
+
+#meeting h2 {
+    text-align: center;
+    margin: 2rem auto;
+    color: #ff0;
+    font-size: 3rem;
+}
+
+#meeting img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+footer {
+    padding: 1rem;
+    width: 100%;
+    background-color: #008080;
+}
+
+footer ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer ul li {
+    margin: auto 2rem;
+}
+
+footer ul li a {
+    font-size: 1.5rem;
+    color: #ffa07a;
+    text-decoration: none;
+}
